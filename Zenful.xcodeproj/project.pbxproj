@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028A56AAB254C60E20DCB11E /* Pods_Zenful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F453A263006F3A210E1DF805 /* Pods_Zenful.framework */; };
+		1A1B30BE260D4A9800603D36 /* ProgessbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1B30BD260D4A9800603D36 /* ProgessbarView.swift */; };
+		1A9BDC41264A008300A0E195 /* MeditateVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BDC40264A008300A0E195 /* MeditateVM.swift */; };
+		1A9BDC43264A00C400A0E195 /* Meditate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BDC42264A00C400A0E195 /* Meditate.swift */; };
+		1A9BDC45264A1F2B00A0E195 /* SleepVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BDC44264A1F2B00A0E195 /* SleepVM.swift */; };
+		1A9BDC47264A1F7100A0E195 /* Sleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BDC46264A1F7100A0E195 /* Sleep.swift */; };
+		1A9BDC49264A629900A0E195 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BDC48264A629900A0E195 /* ImageView.swift */; };
+		1A9BDC4C264A62D800A0E195 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BDC4B264A62D800A0E195 /* ImageLoader.swift */; };
+		1A9BDC4E264A67FF00A0E195 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BDC4D264A67FF00A0E195 /* ImagePicker.swift */; };
+		1AAD73452644C7410032B80D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAD73442644C7410032B80D /* User.swift */; };
+		1AAD73472644C7FC0032B80D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAD73462644C7FC0032B80D /* AppState.swift */; };
+		1ACC2AB825FACFDD00ADAAC6 /* AchievementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACC2AB725FACFDD00ADAAC6 /* AchievementModel.swift */; };
+		1ACC2AC225FAD45100ADAAC6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACC2AC125FAD45100ADAAC6 /* CardView.swift */; };
+		832C2A0326163A0500A30EF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 832C2A0226163A0500A30EF2 /* GoogleService-Info.plist */; };
+		832C2A0926163B0A00A30EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832C2A0826163B0A00A30EF2 /* AppDelegate.swift */; };
+		833B0997261EAD6C0073136F /* MeditationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B0996261EAD6C0073136F /* MeditationModel.swift */; };
+		834DC43D25F7ECA20056999C /* ZenfulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC43C25F7ECA20056999C /* ZenfulApp.swift */; };
+		834DC43F25F7ECA20056999C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC43E25F7ECA20056999C /* ContentView.swift */; };
+		834DC44425F7ECA30056999C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834DC44325F7ECA30056999C /* Preview Assets.xcassets */; };
+		834DC45125F7F4D00056999C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC45025F7F4D00056999C /* MenuView.swift */; };
+		834DC45A25F810BA0056999C /* MeditateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC45925F810BA0056999C /* MeditateView.swift */; };
+		834DC46125F810EA0056999C /* TotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC46025F810EA0056999C /* TotalView.swift */; };
+		834DC46425F811000056999C /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC46325F811000056999C /* SleepView.swift */; };
+		834DC46725F811120056999C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC46625F811120056999C /* ProfileView.swift */; };
+		834DC46A25F811270056999C /* SyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC46925F811270056999C /* SyncView.swift */; };
+		834DC46D25F8113A0056999C /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC46C25F8113A0056999C /* AchievementsView.swift */; };
+		834DC47025F811490056999C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC46F25F811490056999C /* SettingsView.swift */; };
+		834DC47425F811F90056999C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC47325F811F90056999C /* LoginView.swift */; };
+		834DC47825F812180056999C /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DC47725F812180056999C /* SignupView.swift */; };
+		836329C5261646A80053AEBF /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836329C4261646A80053AEBF /* ProfileModel.swift */; };
+		839F17C2264061C400222174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839F17C4264061C400222174 /* Assets.xcassets */; };
+		83FE2DEC2644E01F00F44A46 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE2DEB2644E01E00F44A46 /* DashboardView.swift */; };
+		83FE2DEF2644E08D00F44A46 /* BarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE2DEE2644E08D00F44A46 /* BarModel.swift */; };
+		83FE2DF32644E0EF00F44A46 /* TypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE2DF22644E0EF00F44A46 /* TypeModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A1B30BD260D4A9800603D36 /* ProgessbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgessbarView.swift; sourceTree = "<group>"; };
+		1A9BDC40264A008300A0E195 /* MeditateVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateVM.swift; sourceTree = "<group>"; };
+		1A9BDC42264A00C400A0E195 /* Meditate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditate.swift; sourceTree = "<group>"; };
+		1A9BDC44264A1F2B00A0E195 /* SleepVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepVM.swift; sourceTree = "<group>"; };
+		1A9BDC46264A1F7100A0E195 /* Sleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep.swift; sourceTree = "<group>"; };
+		1A9BDC48264A629900A0E195 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		1A9BDC4B264A62D800A0E195 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		1A9BDC4D264A67FF00A0E195 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1AAD73442644C7410032B80D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1AAD73462644C7FC0032B80D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1ACC2AB725FACFDD00ADAAC6 /* AchievementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementModel.swift; sourceTree = "<group>"; };
+		1ACC2AC125FAD45100ADAAC6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		705A4BCF4CE0E6ABA54A3CBE /* Pods-Zenful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zenful.release.xcconfig"; path = "Target Support Files/Pods-Zenful/Pods-Zenful.release.xcconfig"; sourceTree = "<group>"; };
+		832C2A0226163A0500A30EF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		832C2A0826163B0A00A30EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		833B0996261EAD6C0073136F /* MeditationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationModel.swift; sourceTree = "<group>"; };
+		834DC43925F7ECA20056999C /* Zenful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zenful.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		834DC43C25F7ECA20056999C /* ZenfulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenfulApp.swift; sourceTree = "<group>"; };
+		834DC43E25F7ECA20056999C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		834DC44325F7ECA30056999C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		834DC44525F7ECA30056999C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834DC45025F7F4D00056999C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		834DC45925F810BA0056999C /* MeditateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateView.swift; sourceTree = "<group>"; };
+		834DC46025F810EA0056999C /* TotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalView.swift; sourceTree = "<group>"; };
+		834DC46325F811000056999C /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		834DC46625F811120056999C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		834DC46925F811270056999C /* SyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncView.swift; sourceTree = "<group>"; };
+		834DC46C25F8113A0056999C /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		834DC46F25F811490056999C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		834DC47325F811F90056999C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		834DC47725F812180056999C /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		836329C4261646A80053AEBF /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		839F17C3264061C400222174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Base; path = Base.lproj/Assets.xcassets; sourceTree = "<group>"; };
+		83FE2DEB2644E01E00F44A46 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		83FE2DEE2644E08D00F44A46 /* BarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarModel.swift; sourceTree = "<group>"; };
+		83FE2DF22644E0EF00F44A46 /* TypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeModel.swift; sourceTree = "<group>"; };
+		9CE4FA048BA3015D7F0B8A1B /* Pods-Zenful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zenful.debug.xcconfig"; path = "Target Support Files/Pods-Zenful/Pods-Zenful.debug.xcconfig"; sourceTree = "<group>"; };
+		F453A263006F3A210E1DF805 /* Pods_Zenful.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zenful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834DC43625F7ECA20056999C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028A56AAB254C60E20DCB11E /* Pods_Zenful.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9BDC3F264A007900A0E195 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BDC40264A008300A0E195 /* MeditateVM.swift */,
+				1A9BDC44264A1F2B00A0E195 /* SleepVM.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		1A9BDC4A264A62C400A0E195 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BDC4B264A62D800A0E195 /* ImageLoader.swift */,
+				1A9BDC4D264A67FF00A0E195 /* ImagePicker.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1ACC2ABA25FACFE100ADAAC6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1ACC2AB725FACFDD00ADAAC6 /* AchievementModel.swift */,
+				832C2A0826163B0A00A30EF2 /* AppDelegate.swift */,
+				836329C4261646A80053AEBF /* ProfileModel.swift */,
+				833B0996261EAD6C0073136F /* MeditationModel.swift */,
+				1AAD73442644C7410032B80D /* User.swift */,
+				83FE2DEE2644E08D00F44A46 /* BarModel.swift */,
+				83FE2DF22644E0EF00F44A46 /* TypeModel.swift */,
+				1A9BDC42264A00C400A0E195 /* Meditate.swift */,
+				1A9BDC46264A1F7100A0E195 /* Sleep.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		834DC43025F7ECA20056999C = {
+			isa = PBXGroup;
+			children = (
+				834DC43B25F7ECA20056999C /* Zenful */,
+				834DC43A25F7ECA20056999C /* Products */,
+				838A2B122C8B57819C0B5527 /* Pods */,
+				FFC8184A2DD7FFA14AF6E9EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		834DC43A25F7ECA20056999C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834DC43925F7ECA20056999C /* Zenful.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834DC43B25F7ECA20056999C /* Zenful */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BDC3F264A007900A0E195 /* VM */,
+				83C6F4FB25F87DA900135F12 /* Resources */,
+				834DC43C25F7ECA20056999C /* ZenfulApp.swift */,
+				1ACC2ABA25FACFE100ADAAC6 /* Model */,
+				834DC47225F811530056999C /* Views */,
+				839F17C4264061C400222174 /* Assets.xcassets */,
+				832C2A0226163A0500A30EF2 /* GoogleService-Info.plist */,
+				834DC44525F7ECA30056999C /* Info.plist */,
+				834DC44225F7ECA30056999C /* Preview Content */,
+				1AAD73462644C7FC0032B80D /* AppState.swift */,
+			);
+			path = Zenful;
+			sourceTree = "<group>";
+		};
+		834DC44225F7ECA30056999C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				834DC44325F7ECA30056999C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		834DC47225F811530056999C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BDC4A264A62C400A0E195 /* Helpers */,
+				834DC43E25F7ECA20056999C /* ContentView.swift */,
+				83FE2DEB2644E01E00F44A46 /* DashboardView.swift */,
+				834DC45025F7F4D00056999C /* MenuView.swift */,
+				834DC46025F810EA0056999C /* TotalView.swift */,
+				834DC45925F810BA0056999C /* MeditateView.swift */,
+				834DC46325F811000056999C /* SleepView.swift */,
+				834DC46625F811120056999C /* ProfileView.swift */,
+				1A9BDC48264A629900A0E195 /* ImageView.swift */,
+				1A1B30BD260D4A9800603D36 /* ProgessbarView.swift */,
+				834DC46925F811270056999C /* SyncView.swift */,
+				834DC46C25F8113A0056999C /* AchievementsView.swift */,
+				1ACC2AC125FAD45100ADAAC6 /* CardView.swift */,
+				834DC46F25F811490056999C /* SettingsView.swift */,
+				834DC47325F811F90056999C /* LoginView.swift */,
+				834DC47725F812180056999C /* SignupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		838A2B122C8B57819C0B5527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CE4FA048BA3015D7F0B8A1B /* Pods-Zenful.debug.xcconfig */,
+				705A4BCF4CE0E6ABA54A3CBE /* Pods-Zenful.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		83C6F4FB25F87DA900135F12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFC8184A2DD7FFA14AF6E9EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F453A263006F3A210E1DF805 /* Pods_Zenful.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834DC43825F7ECA20056999C /* Zenful */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834DC44825F7ECA30056999C /* Build configuration list for PBXNativeTarget "Zenful" */;
+			buildPhases = (
+				55E0E61D52346448EC8DA865 /* [CP] Check Pods Manifest.lock */,
+				834DC43525F7ECA20056999C /* Sources */,
+				834DC43625F7ECA20056999C /* Frameworks */,
+				834DC43725F7ECA20056999C /* Resources */,
+				A24B601338101D13D136A28E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zenful;
+			productName = Zenful;
+			productReference = 834DC43925F7ECA20056999C /* Zenful.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834DC43125F7ECA20056999C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					834DC43825F7ECA20056999C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 834DC43425F7ECA20056999C /* Build configuration list for PBXProject "Zenful" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 834DC43025F7ECA20056999C;
+			productRefGroup = 834DC43A25F7ECA20056999C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834DC43825F7ECA20056999C /* Zenful */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834DC43725F7ECA20056999C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834DC44425F7ECA30056999C /* Preview Assets.xcassets in Resources */,
+				839F17C2264061C400222174 /* Assets.xcassets in Resources */,
+				832C2A0326163A0500A30EF2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55E0E61D52346448EC8DA865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zenful-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24B601338101D13D136A28E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zenful/Pods-Zenful-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zenful/Pods-Zenful-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zenful/Pods-Zenful-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834DC43525F7ECA20056999C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834DC46A25F811270056999C /* SyncView.swift in Sources */,
+				834DC46725F811120056999C /* ProfileView.swift in Sources */,
+				1A9BDC41264A008300A0E195 /* MeditateVM.swift in Sources */,
+				1A9BDC4C264A62D800A0E195 /* ImageLoader.swift in Sources */,
+				1A1B30BE260D4A9800603D36 /* ProgessbarView.swift in Sources */,
+				834DC46D25F8113A0056999C /* AchievementsView.swift in Sources */,
+				834DC43F25F7ECA20056999C /* ContentView.swift in Sources */,
+				83FE2DF32644E0EF00F44A46 /* TypeModel.swift in Sources */,
+				1ACC2AC225FAD45100ADAAC6 /* CardView.swift in Sources */,
+				834DC46425F811000056999C /* SleepView.swift in Sources */,
+				1ACC2AB825FACFDD00ADAAC6 /* AchievementModel.swift in Sources */,
+				1AAD73452644C7410032B80D /* User.swift in Sources */,
+				834DC45A25F810BA0056999C /* MeditateView.swift in Sources */,
+				1A9BDC49264A629900A0E195 /* ImageView.swift in Sources */,
+				1A9BDC43264A00C400A0E195 /* Meditate.swift in Sources */,
+				833B0997261EAD6C0073136F /* MeditationModel.swift in Sources */,
+				836329C5261646A80053AEBF /* ProfileModel.swift in Sources */,
+				834DC47425F811F90056999C /* LoginView.swift in Sources */,
+				834DC46125F810EA0056999C /* TotalView.swift in Sources */,
+				834DC45125F7F4D00056999C /* MenuView.swift in Sources */,
+				1A9BDC47264A1F7100A0E195 /* Sleep.swift in Sources */,
+				83FE2DEF2644E08D00F44A46 /* BarModel.swift in Sources */,
+				1AAD73472644C7FC0032B80D /* AppState.swift in Sources */,
+				83FE2DEC2644E01F00F44A46 /* DashboardView.swift in Sources */,
+				834DC43D25F7ECA20056999C /* ZenfulApp.swift in Sources */,
+				834DC47825F812180056999C /* SignupView.swift in Sources */,
+				1A9BDC45264A1F2B00A0E195 /* SleepVM.swift in Sources */,
+				1A9BDC4E264A67FF00A0E195 /* ImagePicker.swift in Sources */,
+				832C2A0926163B0A00A30EF2 /* AppDelegate.swift in Sources */,
+				834DC47025F811490056999C /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		839F17C4264061C400222174 /* Assets.xcassets */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839F17C3264061C400222174 /* Base */,
+			);
+			name = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		834DC44625F7ECA30056999C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		834DC44725F7ECA30056999C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834DC44925F7ECA30056999C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE4FA048BA3015D7F0B8A1B /* Pods-Zenful.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_ASSET_PATHS = "\"Zenful/Preview Content\"";
+				DEVELOPMENT_TEAM = TT83PSM2DA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zenful/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Howard-Cella.Zenful";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		834DC44A25F7ECA30056999C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705A4BCF4CE0E6ABA54A3CBE /* Pods-Zenful.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_ASSET_PATHS = "\"Zenful/Preview Content\"";
+				DEVELOPMENT_TEAM = TT83PSM2DA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zenful/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Howard-Cella.Zenful";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834DC43425F7ECA20056999C /* Build configuration list for PBXProject "Zenful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834DC44625F7ECA30056999C /* Debug */,
+				834DC44725F7ECA30056999C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834DC44825F7ECA30056999C /* Build configuration list for PBXNativeTarget "Zenful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834DC44925F7ECA30056999C /* Debug */,
+				834DC44A25F7ECA30056999C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834DC43125F7ECA20056999C /* Project object */;
+}
